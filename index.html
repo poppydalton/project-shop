@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlushBasket</title>
+    <link rel="stylesheet" href="styles/blushbasket-styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg blush-navbar sticky-top">
+        <div class="container blush-nav-shell">
+            <a class="navbar-brand blush-brand" href="index.html">BlushBasket</a>
+
+            <div class="d-flex align-items-center gap-2 ms-auto">
+                <span id="authBadge" class="badge blush-auth-badge">Logged Out</span>
+
+                <a href="pages/login.html" id="btnLogin" class="btn blush-login-btn">Login</a>
+                <button id="btnLogout" class="btn blush-logout-btn d-none" type="button">Logout</button>
+
+                <button class="btn blush-menu-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#blushMenu"
+                    aria-controls="blushMenu" aria-label="Open menu">
+                    <i class="bi bi-list fs-2"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end blush-offcanvas" tabindex="-1" id="blushMenu" aria-labelledby="blushMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title montserrat-alternates-bold" id="blushMenuLabel">Browse</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <div class="list-group blush-menu-list">
+                <a href="pages/women.html" class="list-group-item list-group-item-action">Women's</a>
+                <a href="pages/men.html" class="list-group-item list-group-item-action">Men's</a>
+                <a href="pages/session.html" class="list-group-item list-group-item-action">Session Data</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="container py-5">
+
+        <section class="blush-home-card shadow-sm">
+
+            <img src="assets/docs/homepage-pic.jpg" alt="Featured clothing styles" class="blush-home-image">
+
+            <h1 class="blush-home-title">Explore Popular Styles</h1>
+
+            <p class="blush-home-text">
+                Search men and women fashion items, browse by category, and track your session activity in one place.
+            </p>
+
+            <div class="blush-home-actions">
+                <a href="pages/women.html" class="btn blush-primary-action">Shop Women's</a>
+                <a href="pages/men.html" class="btn blush-primary-action">Shop Men's</a>
+            </div>
+        </section>
+
+        <section class="blush-preview-grid mt-4">
+            <article class="blush-preview-card shadow-sm">
+                <div class="preview-pill">Women’s</div>
+                <h2>Shop the Latest Styles</h2>
+                <p>Browse trending pieces and find your favorite brands all in one place!</p>
+                <a href="pages/women.html" class="preview-link">Go to Women’s Page</a>
+            </article>
+
+            <article class="blush-preview-card shadow-sm">
+                <div class="preview-pill">Men’s</div>
+                <h2>Upgrade Your Look</h2>
+                <p>Discover clothing from popular brands and find styles you will wear everyday!</p>
+                <a href="pages/men.html" class="preview-link">Go to Men’s Page</a>
+            </article>
+
+            <article class="blush-preview-card shadow-sm">
+                <div class="preview-pill">Session</div>
+                <h2>Track login status</h2>
+                <p>Log in to view your session overview and clear the session when needed.</p>
+                <a href="pages/session.html" class="preview-link">View Session Page</a>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="blush-footer mt-5">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap gap-3 py-4">
+            <a href="https://github.com/poppydalton/project-shop" class="footer-link" target="_blank">
+                <i class="bi bi-github"></i> View GitHub Repo
+            </a>
+            <span class="footer-flower"><i class="bi bi-flower3"></i></span>
+            <span class="footer-brand">BlushBasket</span>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index:1080;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/session-script.js"></script>
+    <script src="scripts/login-logout.js"></script>
+</body>
+
+</html>
