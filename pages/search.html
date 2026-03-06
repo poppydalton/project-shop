@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlushBasket | Search</title>
+    <link rel="stylesheet" href="../styles/blushbasket-styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg blush-navbar sticky-top">
+        <div class="container blush-nav-shell">
+            <a class="navbar-brand blush-brand" href="../index.html">BlushBasket</a>
+
+            <div class="d-flex align-items-center gap-2 ms-auto">
+                <span id="authBadge" class="badge blush-auth-badge">Logged Out</span>
+
+                <a href="login.html" id="btnLogin" class="btn blush-login-btn">Login</a>
+                <button id="btnLogout" class="btn blush-logout-btn d-none" type="button">Logout</button>
+
+                <a href="../index.html" class="btn blush-secondary-action">Home</a>
+                <a href="session.html" class="btn blush-secondary-action">Session</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+
+        <section class="blush-search-header shadow-sm">
+            <div class="blush-home-chip">Search Page</div>
+            <h1 class="blush-search-title">Browse by category</h1>
+            <p class="blush-search-subtitle">
+                Click Women’s or Men’s to switch categories, then use the search bar.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+                <button class="btn blush-primary-action blush-category-button" data-category="women">Women's</button>
+                <button class="btn blush-primary-action blush-category-button" data-category="men">Men's</button>
+                <a href="../index.html" class="btn blush-secondary-action">Home Page</a>
+            </div>
+        </section>
+
+        <section id="searchControlsSection" class="blush-search-controls shadow-sm mt-4">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-8">
+                    <input type="text" id="searchInput" class="form-control search-top-input"
+                        placeholder="Search clothing items...">
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex gap-2 justify-content-lg-end">
+                        <button id="searchButton" class="btn blush-primary-action">Search</button>
+                        <button id="resetButton" class="btn blush-secondary-action">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="searchMessage" class="small text-muted mt-3 mb-0">
+                Pick a category to start searching.
+            </p>
+        </section>
+
+        <section class="blush-session-mini shadow-sm mt-4">
+            <div class="row g-3 small">
+                <div class="col-md-4"><strong>Auth:</strong> <span id="sessionAuthValue">false</span></div>
+                <div class="col-md-4"><strong>User:</strong> <span id="sessionUserValue">none</span></div>
+                <div class="col-md-4"><strong>Category:</strong> <span id="sessionCategoryValue">none</span></div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div id="searchResults" class="row g-4"></div>
+        </section>
+
+    </main>
+
+    <footer class="blush-footer mt-5">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap gap-3 py-4">
+            <a href="https://github.com/poppydalton/project-shop" class="footer-link" target="_blank">
+                <i class="bi bi-github"></i> View GitHub Repo
+            </a>
+            <span class="footer-flower"><i class="bi bi-flower3"></i></span>
+            <span class="footer-brand">BlushBasket</span>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index:1080;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/session-script.js"></script>
+    <script src="../scripts/login-logout.js"></script>
+    <script src="../scripts/search-script.js"></script>
+    
+</body>
+
+</html>

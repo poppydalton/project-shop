@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlushBasket | Women's</title>
+    <link rel="stylesheet" href="../styles/blushbasket-styles.css">
+</head>
+
+<body data-category-page="women">
+
+    <nav class="navbar navbar-expand-lg blush-navbar sticky-top">
+        <div class="container blush-nav-shell">
+            <a class="navbar-brand blush-brand" href="../index.html">BlushBasket</a>
+            <div class="d-flex gap-2 ms-auto">
+                <a href="../index.html" class="btn blush-secondary-action">Home</a>
+                <a href="men.html" class="btn blush-secondary-action">Men's</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-4">
+        <section class="blush-search-header shadow-sm">
+            <div class="blush-home-chip">Women's Search</div>
+            <h1 class="blush-search-title">Shop Women’s</h1>
+        </section>
+
+        <section class="blush-search-controls shadow-sm mt-4">
+            <div class="row g-3 align-items-center">
+                <div class="col-lg-8">
+                    <input type="text" id="searchInput" class="form-control search-top-input"
+                        placeholder="Search women's shirts...">
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex gap-2 justify-content-lg-end">
+                        <button id="searchButton" class="btn blush-primary-action" type="button">Search</button>
+                        <button id="resetButton" class="btn blush-secondary-action" type="button">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="searchMessage" class="small text-muted mt-3 mb-0">Loading women’s items...</p>
+        </section>
+
+        <section class="mt-4">
+            <div id="searchResults" class="row g-4"></div>
+        </section>
+    </main>
+
+    <script src="../scripts/search-script.js"></script>
+    
+</body>
+
+</html>

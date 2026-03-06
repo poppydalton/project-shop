@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BlushBasket | Session</title>
+    <link rel="stylesheet" href="../styles/blushbasket-styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg blush-navbar sticky-top">
+        <div class="container blush-nav-shell">
+            <a class="navbar-brand blush-brand" href="../index.html">BlushBasket</a>
+
+            <div class="d-flex align-items-center gap-2 ms-auto">
+                <span id="authBadge" class="badge blush-auth-badge">Logged Out</span>
+                <span id="userGreeting" class="blush-user-greeting">not signed in</span>
+
+                <a href="login.html" id="btnLogin" class="btn blush-login-btn">Login</a>
+                <button id="btnLogout" class="btn blush-logout-btn d-none" type="button">Logout</button>
+
+                <a href="../index.html" class="btn blush-secondary-action">Home</a>
+                <a href="search.html" class="btn blush-secondary-action">Search</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <section class="blush-session-page shadow-sm">
+            <div class="blush-home-chip">Temporary / Session Data</div>
+            <h1 class="blush-search-title">Session Overview</h1>
+            <p class="text-muted">This page shows the current data stored in sessionStorage.</p>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-4">
+                    <div class="blush-data-card">
+                        <h2>Auth</h2>
+                        <p id="sessionAuthValue">false</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="blush-data-card">
+                        <h2>User</h2>
+                        <p id="sessionUserValue">none</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="blush-data-card">
+                        <h2>Category</h2>
+                        <p id="sessionCategoryValue">none</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+                <button id="clearSessionButton" class="btn blush-primary-action" type="button">Clear Session
+                    Data</button>
+                <a href="../index.html" class="btn blush-secondary-action">Back to Home</a>
+                <a href="search.html" class="btn blush-secondary-action">Go to Search</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="blush-footer mt-5">
+        <div class="container d-flex justify-content-center align-items-center flex-wrap gap-3 py-4">
+            <a href="https://github.com/poppydalton/project-shop" class="footer-link" target="_blank">
+                <i class="bi bi-github"></i> View GitHub Repo
+            </a>
+            <span class="footer-flower"><i class="bi bi-flower3"></i></span>
+            <span class="footer-brand">BlushBasket</span>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="position-fixed bottom-0 end-0 p-3" style="z-index:1080;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/session-script.js"></script>
+    <script src="../scripts/login-logout.js"></script>
+</body>
+
+</html>
