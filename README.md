@@ -45,6 +45,7 @@ ADD IN INSPIRATION PAGE and create issue for it
 This code shows how the website displays clothing items on the page.
 This allows the page to update when the user searches or changes categories, without reloading the page. 
 
+```
 function renderSearchResults(items) {
     searchResults.innerHTML = '';
 
@@ -61,7 +62,7 @@ function renderSearchResults(items) {
 
         searchResults.appendChild(col);
     });
-}
+```
 
 # Architecture/Infrastructure:
 This application is a front-end web application built using:
