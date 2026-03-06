@@ -1,8 +1,9 @@
 # BlushBasket
-A front-end web application for browsing and searching clothing styles across multiple brands in one place. 
+A web application for browsing and searching clothing styles across multiple brands in one place. 
 
 # Authorship & Attribution:
 Created by Poppy Dalton - Front-End Web Development
+
 This project was built using HTML, CSS, JavaScript, and Bootstrap.
 Development was guided by course examples and documentation resources.
 
