@@ -41,6 +41,7 @@ Design Inspiration:
 ADD IN INSPIRATION PAGE and create issue for it
 
 # Model/Inspiration:
+https://github.com/poppydalton/project-shop/issues/1 
 
 # Code Block:
 This code shows how the website displays clothing items on the page.
