@@ -1,0 +1,78 @@
+
+{
+    "products": [
+        {
+            "title": "Women's Shirt",
+            "description": "Women's shirt collection from Aerie.",
+            "category": "women",
+            "url": "https://www.ae.com/us/en/p/aerie/clothing/loungewear/aerie-remix-henley-cropped-t-shirt/5496_4111_507?menu=cat4840006&ip=off&utm_source=google&utm_medium=pla&utm_content=aerie&utm_campaign=nogender_tops_general&utm_term=nonbrand&utm_id=20001158336&gad_source=1&gad_campaignid=20001158336&gbraid=0AAAAADovoqJyQtX8R0ewRhw84oA3iP0RL&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlHcoLlrt9bYNuWMvN0R7QspcQtYZfYDn04R6f90pyrsSPSKEp4UGI4aAn3oEALw_wcB",
+            "image": "../assets/docs/womens-aerie-stripe-shirt.jpg"
+        },
+        {
+            "title": "Women's Striped Shirt",
+            "description": "Women's striped tee from Altar'd State.",
+            "category": "women",
+            "url": "https://www.altardstate.com/as/clothing/tops/blouses/royel-striped-tee/1005812803.html",
+            "image": "../assets/docs/womens-royel-striped-tee.jpg"
+        },
+        {
+            "title": "Women's Tackle Tee Shirt",
+            "description": "Women's tackle tee from Free People Movement.",
+            "category": "women",
+            "url": "https://www.freepeople.com/fpmovement/shop/tackle-tee/?color=646&size=M&type=STANDARD&g_acctid=925-773-0063&g_adgroupid=&g_adid=&g_adtype=none&g_campaign=PLAs+US+-+Smart+Shopping+PMAX+US+-+Movement+-+All+Products&g_campaignid=18439560228&g_keyword=&g_keywordid=&g_network=x&utm_kxconfid=vx6ro62gj&gclsrc=aw.ds&gad_source=1&gad_campaignid=18446024303&gbraid=0AAAAADmlMfmsHpzlp5v4o-jRmCWS8CJYz&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlFXN6-2VQ_A8Q6HrdO7l_LwFl32h48Ntpu9K5FKkQe5QG5aWS17Sb4aAluiEALw_wcB",
+            "image": "../assets/docs/womens-fp-movement-shirt.jpg"
+        },
+        {
+            "title": "Women's Swiftly Tech Shirt",
+            "description": "Women's short sleeve shirt collection from lululemon.",
+            "category": "women",
+            "url": "https://shop.lululemon.com/p/tops-short-sleeve/Swiftly-Tech-SS-2-MD/_/prod9940024?color=71211&locale=en_US&sl=US&sz=2",
+            "image": "../assets/docs/womens-lululemon-shirt.jpg"
+        },
+        {
+            "title": "Women's UNA Lions Short Sleeve Shirt",
+            "description": "Women's purple short sleeve shirt from UNA bookstore.",
+            "category": "women",
+            "url": "https://www.bkstr.com/northalabamastore/product/w-clothesline-sst-npurp-sm---31279-1",
+            "image": "../assets/docs/womens-una-shirt.jpg"
+        },
+              
+        {
+            "title": "Men's Tee Shirt",
+            "description": "Men's crest T-shirt from Gymshark.",
+            "category": "men",
+            "url": "https://www.gymshark.com/products/gymshark-crest-t-shirt-ss-tops-brown-aw25?gclsrc=aw.ds&gad_source=1&gad_campaignid=21835524216&gbraid=0AAAAADMZ0irnodeFc0oe4KjfPu6pl9__9&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlHfmklookXMHLCVwAxbl9Q65ZqZ3pMfOk3IPEH4te5qlSFKMfx4SPUaAnHUEALw_wcB",
+            "image": "../assets/docs/mens-gymshark-brown.jpg"
+        },
+        {
+            "title": "Men's Heavyweight T-Shirt",
+            "description": "Men's heavyweight washed cotton crew t-shirt from Hollister.",
+            "category": "men",
+            "url": "https://www.hollisterco.com/shop/us/p/heavyweight-boxy-camo-pattern-t-shirt-60556819?seq=29?seq=29&utm_source=googleshopping&adpos=&scid=scplp660709120&sc_intid=660709120&cmp=PLA:EVG:20:HCo:D:USCA:X:GGL:X:SHOP:X:X:X:X:x:HCO_Google_Shopping_DEF_PMAX_US_Tees_X__&gclsrc=aw.ds&gad_source=1&gad_campaignid=22698827651&gbraid=0AAAAADw3OcKu5AOYNApJn7o8X18o1854I&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlF-fZyIS0LN4rhXCxP93GstBHRi_39dFkQUINllxWD06O0w53ksh-YaAoiHEALw_wcB",
+            "image": "../assets/docs/mens-blue-hollister-tee.jpg"
+        },
+        
+        {
+            "title": "Men's Fabletcis T-Shirt",
+            "description": "Men's effortless oversied tee from Fabletics.",
+            "category": "men",
+            "url": "https://www.fabletics.com/products/THE-EFFORTLESS-OVERSIZED-TEE-SS2500552-2700?utm_source=google%2Cgoogle&utm_medium=shopping%2Cshopping&promo=gshop_msrp&utm_campaign=US_FLM_PLA_Brand_new&utm_term=22526111188&nbt=nb%3Aadwords%3Ag%3A22526111188%3A180658575242%3A750654549732&nb_adtype=pla_with_promotion&nb_kwd=&nb_ti=pla-923175836794&nb_mi=102826741&nb_pc=online&nb_pi=SS2500552-0783-15800&nb_ppi=923175836794&nb_placement=&nb_li_ms=&nb_lp_ms=&nb_fii=&nb_ap=&nb_mt=&gad_source=1&gad_campaignid=22526111188&gbraid=0AAAAADmD61ggY5UPP1mLG-ZDq3UVaaTy8&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlHFPilQhNYjd5kSYqBG-BRIG_xRVsqXAP_CmrnO6kIPI6465zRSyWcaAkLJEALw_wcB",
+            "image": "../assets/docs/mens-fabletics-shirt.jpg"
+        },
+
+        {
+            "title": "Men's Old Row T-Shirt",
+            "description": "Men's circle logo pocket tee from Old Row.",
+            "category": "men",
+            "url": "https://shop.oldrow.net/products/old-row-circle-logo-pocket-tee?variant=40059025260657&country=US&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=17963159410&gbraid=0AAAAADM-5rBrWN16zvdg1NHmBvGMo7LTD&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlH6t7uzIJG8QIEo7g9ES3kN8ywTTdnMb1RePwqSsDksPTZxUvXurTAaAoqJEALw_wcB",
+            "image": "../assets/docs/mens-oldrow-shirt.jpg"
+        },
+        {
+            "title": "Men's UNA Short Sleeve T-Shirt",
+            "description": "Men's golden yellow short sleeve shirt from UNA bookstore.",
+            "category": "men",
+            "url": "https://www.bkstr.com/northalabamastore/product/victory-sst-msn-ss-vgldh-sm---98775-1",
+            "image": "../assets/docs/mens-una-shirt.jpg"
+        }
+    ]
+}
