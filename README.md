@@ -29,7 +29,7 @@ Development was guided by course examples and documentation resources.
 * https://fonts.google.com/selection/embed
 
 # Tagline:
-Browse popular men's and women's clothing styles across brands without visiting dozens of different websites.
+Browse popular men's and women's clothing styles across brands without visiting numerous of different websites to find your style.
 
 # User Story:
 As someone constantly looking for new clothing styles, 
