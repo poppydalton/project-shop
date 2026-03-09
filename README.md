@@ -11,6 +11,7 @@ Development was guided by course examples and documentation resources.
 * Parts of the JavaScript structure and session storage logic were inspired by the BearBot example project used in CIS 376 course.
 * https://github.com/barrycumbie/bearbot
 * ChatGPT was used as a development assistant for minor debugging and implementation questions.
+* Other Inspiration included: Bootstrap, Bootstrap Icons, and Google Fonts.
 
 # Bootstrap Components:
 * https://getbootstrap.com/docs/5.2/components/card/#content-types
@@ -28,24 +29,41 @@ Development was guided by course examples and documentation resources.
 * https://fonts.google.com/selection/embed
 
 # Tagline:
-Browse popular men and women clothing styles across brands without visiting dozen of different websites.
+Browse popular men's and women's clothing styles across brands without visiting dozens of different websites.
 
 # User Story:
 As someone constantly looking for new clothing styles, 
 I want to browse and search items by category, 
-so that I can easily compare options and discover items I like without visitng numerous websites.  
+so that I can easily compare options and discover items I like without visiting numerous websites.  
 
 # Links:
+Repo:
 
-Design Inspiration:
-ADD IN INSPIRATION PAGE and create issue for it
+https://github.com/poppydalton/project-blush-basket-shop 
+
+App:
+
+https://poppydalton.github.io/project-blush-basket-shop/
+
+# Design:
+
+<img width="2880" height="1468" alt="image" src="https://github.com/user-attachments/assets/855bafd6-4752-40a7-9b19-dc79b01f559a" />
+
+The homepage navigation was inspired by the Hoka website, which separates browsing into Men's and Women's shopping categories to make it easier for users to navigate products. I adapted this idea by creating separate Men's and Women's pages in my application so users can browse clothing styles and search items without having to scroll through unrelated products.
 
 # Model/Inspiration:
-https://github.com/poppydalton/project-shop/issues/1 
+Design inspiration picture:
+
+https://github.com/poppydalton/project-blush-basket-shop/issues/2
+
+I copied the simplicity of "Shop Women's" and "Shop Men's" while keeping the website name visible in the navigation bar.
+I fixed the browsing experience by organizing clothing items into separate category pages, allowing users to focus on either men's or women's clothing without viewing items outside of their selected category.
+I improved the user interface by adding a clear login and logout button to the top right and placing the session page inside the hamburger menu, allowing users to access and manage their session data if they choose to log in.
 
 # Code Block:
 This code shows how the website displays clothing items on the page.
 This allows the page to update when the user searches or changes categories, without reloading the page. 
+JavaScript reads the clothing data, creates product cards for each item, and inserts them into the page so the results update when a user searches or selects a category.
 
 ```
 function renderSearchResults(items) {
@@ -64,6 +82,7 @@ function renderSearchResults(items) {
 
         searchResults.appendChild(col);
     });
+}
 ```
 
 # Architecture/Infrastructure:
@@ -71,9 +90,12 @@ This application is a front-end web application built using:
 * HTML
 * CSS
 * JavaScript
+* JSON
 * Bootstrap
 * Bootstrap Icons
 * Google Fonts
+
+Product data is stored in a local JSON file and used by JavaScript to generate clothing cards displayed on the page.
 
 Session data includes:
 * Login Status
@@ -83,6 +105,7 @@ Session data includes:
 # Verification:
 The application was tested in:
 * Google Chrome
+* Safari
 * Desktop Screen Sizes
 * Mobile Screen Widths
 
