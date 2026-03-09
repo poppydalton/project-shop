@@ -37,13 +37,9 @@ I want to browse and search items by category,
 so that I can easily compare options and discover items I like without visiting numerous websites.  
 
 # Links:
-Repo:
+[Click here for the link to repo](https://github.com/poppydalton/project-blush-basket-shop)
 
-https://github.com/poppydalton/project-blush-basket-shop 
-
-App:
-
-https://poppydalton.github.io/project-blush-basket-shop/
+[Click here for link to the deployed app](https://poppydalton.github.io/project-blush-basket-shop/)
 
 # Design:
 
@@ -52,9 +48,7 @@ https://poppydalton.github.io/project-blush-basket-shop/
 The homepage navigation was inspired by the Hoka website, which separates browsing into Men's and Women's shopping categories to make it easier for users to navigate products. I adapted this idea by creating separate Men's and Women's pages in my application so users can browse clothing styles and search items without having to scroll through unrelated products.
 
 # Model/Inspiration:
-Design inspiration picture:
-
-https://github.com/poppydalton/project-blush-basket-shop/issues/2
+[Design inspiration picture (Hoka reference)](https://github.com/poppydalton/project-blush-basket-shop/issues/2)
 
 I copied the simplicity of "Shop Women's" and "Shop Men's" while keeping the website name visible in the navigation bar.
 I fixed the browsing experience by organizing clothing items into separate category pages, allowing users to focus on either men's or women's clothing without viewing items outside of their selected category.
