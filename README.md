@@ -26,8 +26,7 @@ Development was guided by course examples and documentation resources.
 * https://icons.getbootstrap.com/icons/flower3/ 
 
 # Font:
-* https://fonts.google.com/selection/embed
-
+*https://fonts.google.com/specimen/Montserrat+Alternates
 # Tagline:
 Browse popular men's and women's clothing styles across brands without visiting numerous of different websites to find your style.
 
