@@ -39,7 +39,7 @@ so that I can easily compare options and discover items I like without visiting 
 # Links:
 [Click here for the link to repo](https://github.com/poppydalton/project-blush-basket-shop)
 
-[Click here for link to the deployed app](https://poppydalton.github.io/project-blush-basket-shop/)
+[Click here for the link to deployed app](https://poppydalton.github.io/project-blush-basket-shop/)
 
 # Design:
 
